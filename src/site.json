@@ -1,0 +1,419 @@
+{
+  "name": "GlowSkin Studio",
+  "metadata": {
+    "tagline": "Radiant skin, expertly cared for",
+    "businessName": "GlowSkin Studio"
+  },
+  "globals": {
+    "footer": {
+      "id": "d70e9967-820b-4be0-94ee-cf7842ca7a9e",
+      "type": "footer",
+      "props": {
+        "legal": "© 2024 GlowSkin Studio. All rights reserved.",
+        "links": [
+          {
+            "href": "/",
+            "label": "Home"
+          },
+          {
+            "href": "/services",
+            "label": "Services"
+          },
+          {
+            "href": "/contact",
+            "label": "Contact"
+          }
+        ],
+        "social": [],
+        "tagline": "Radiant skin, expertly cared for",
+        "logoText": "GlowSkin Studio"
+      },
+      "styles": {
+        "background": "surface"
+      },
+      "variant": "columns"
+    },
+    "header": {
+      "id": "e0f13016-43e0-46de-b942-0bb9f3e795ed",
+      "type": "navbar",
+      "props": {
+        "cta": {
+          "href": "/contact",
+          "label": "Book Now"
+        },
+        "links": [],
+        "logoText": "GlowSkin Studio",
+        "logoImage": {
+          "alt": "",
+          "url": "",
+          "query": ""
+        }
+      },
+      "styles": {},
+      "variant": "simple"
+    }
+  },
+  "design": {
+    "colors": {
+      "dark": "#0b2422",
+      "text": "#102a27",
+      "muted": "#4b6360",
+      "accent": "#C9A84C",
+      "border": "#dbe8e6",
+      "primary": "#E8A0A8",
+      "surface": "#f0f7f6",
+      "darkText": "#fafaf9",
+      "background": "#ffffff",
+      "primaryText": "#111111"
+    },
+    "typography": {
+      "scale": 1,
+      "bodyFont": "Lato",
+      "headingCase": "none",
+      "headingFont": "Cormorant Garamond",
+      "headingWeight": 600
+    },
+    "spacing": {
+      "section": 104,
+      "container": 1200
+    },
+    "radius": {
+      "base": 18,
+      "button": 999
+    },
+    "shadows": {
+      "level": "soft"
+    }
+  },
+  "pages": [
+    {
+      "id": "12a34823-f104-4fe0-ae7e-62996e564dd8",
+      "name": "Home",
+      "slug": "/",
+      "seo": {
+        "title": "GlowSkin Studio – Skincare & Beauty Clinic in Lagos",
+        "description": "Book facials, acne treatment, chemical peels and lash extensions at GlowSkin Studio, 5 Allen Avenue, Ikeja, Lagos. Open Mon–Sat, 9am–7pm."
+      },
+      "sections": [
+        {
+          "id": "a44bb1fc-1288-4829-8071-2edb4e02c76e",
+          "type": "hero",
+          "variant": "split",
+          "props": {
+            "image": {
+              "alt": "Client enjoying a professional facial treatment at GlowSkin Studio",
+              "url": "https://images.pexels.com/photos/12115040/pexels-photo-12115040.jpeg?auto=compress&cs=tinysrgb&w=1600",
+              "query": "woman glowing skin beauty treatment",
+              "credit": "Photo by Denys Mikhalevych on Pexels",
+              "creditUrl": "https://www.pexels.com/@denys"
+            },
+            "eyebrow": "Ikeja, Lagos",
+            "headline": "Your skin deserves expert, gentle care",
+            "primaryCta": {
+              "href": "/contact",
+              "label": "Book an Appointment"
+            },
+            "subheadline": "GlowSkin Studio offers professional facials, acne treatment, chemical peels and lash extensions. Book your appointment today.",
+            "secondaryCta": {
+              "href": "/services",
+              "label": "View Services"
+            }
+          },
+          "styles": {}
+        },
+        {
+          "id": "4c00fcc9-f705-447b-8198-ec4cfb53ef64",
+          "type": "highlights",
+          "variant": "strip",
+          "props": {
+            "items": [
+              {
+                "text": "Professional skincare clinic"
+              },
+              {
+                "text": "Results-driven treatments"
+              },
+              {
+                "text": "Open Monday – Saturday"
+              },
+              {
+                "text": "Located in Ikeja, Lagos"
+              }
+            ],
+            "heading": ""
+          },
+          "styles": {
+            "paddingY": "compact",
+            "background": "surface"
+          }
+        },
+        {
+          "id": "8da6839d-a0ab-45b0-b8d8-1d639e343605",
+          "type": "features",
+          "variant": "imageCards",
+          "props": {
+            "intro": "From corrective skincare to beauty enhancements, every treatment at GlowSkin Studio is delivered with care and precision.",
+            "items": [
+              {
+                "icon": "star",
+                "image": {
+                  "alt": "Client receiving a classic facial treatment",
+                  "url": "https://images.pexels.com/photos/8406612/pexels-photo-8406612.jpeg?auto=compress&cs=tinysrgb&w=1600",
+                  "query": "woman facial treatment spa",
+                  "credit": "Photo by Los Muertos Crew on Pexels",
+                  "creditUrl": "https://www.pexels.com/@cristian-rojas"
+                },
+                "title": "Classic Facial",
+                "description": "A thorough, relaxing facial that cleanses, exfoliates and nourishes your skin for a healthy, refreshed glow."
+              },
+              {
+                "icon": "star",
+                "image": {
+                  "alt": "Professional acne treatment in progress",
+                  "url": "https://images.pexels.com/photos/14870032/pexels-photo-14870032.jpeg?auto=compress&cs=tinysrgb&w=1600",
+                  "query": "skincare acne treatment close-up",
+                  "credit": "Photo by Hoàng Ngọc Long on Pexels",
+                  "creditUrl": "https://www.pexels.com/@hoanglong0108"
+                },
+                "title": "Acne Treatment",
+                "description": "Targeted therapy to reduce breakouts, calm inflammation and support clearer, healthier skin over time."
+              },
+              {
+                "icon": "star",
+                "image": {
+                  "alt": "Chemical peel treatment being applied",
+                  "url": "https://images.pexels.com/photos/7446685/pexels-photo-7446685.jpeg?auto=compress&cs=tinysrgb&w=1600",
+                  "query": "chemical peel skincare beauty clinic",
+                  "credit": "Photo by Gustavo Fring on Pexels",
+                  "creditUrl": "https://www.pexels.com/@gustavo-fring"
+                },
+                "title": "Chemical Peel",
+                "description": "A controlled exfoliation treatment that improves skin tone, texture and radiance with minimal downtime."
+              },
+              {
+                "icon": "star",
+                "image": {
+                  "alt": "Close-up of lash extension application",
+                  "url": "https://images.pexels.com/photos/38194468/pexels-photo-38194468.jpeg?auto=compress&cs=tinysrgb&w=1600",
+                  "query": "lash extensions beauty close-up",
+                  "credit": "Photo by Visen Group on Pexels",
+                  "creditUrl": "https://www.pexels.com/@visen-group-2161585898"
+                },
+                "title": "Lash Extensions",
+                "description": "Beautifully crafted lash extensions that enhance your natural look and last for weeks."
+              }
+            ],
+            "eyebrow": "Our Treatments",
+            "heading": "Skin and beauty services tailored to you"
+          },
+          "styles": {}
+        },
+        {
+          "id": "016092d8-4234-48eb-8608-0151c32cd0fa",
+          "type": "about",
+          "variant": "imageLeft",
+          "props": {
+            "cta": {
+              "href": "/contact",
+              "label": "Book Your Visit"
+            },
+            "body": "At GlowSkin Studio, we believe that great skin is the foundation of confidence. Our clinic in Ikeja, Lagos is a welcoming space where every client receives focused, personalised attention.\n\nWe offer a curated menu of skincare and beauty treatments, from deep-cleansing facials to corrective peels and precision lash work. Every session is designed to deliver real, visible results.",
+            "image": {
+              "alt": "Inside GlowSkin Studio clinic in Ikeja, Lagos",
+              "url": "https://images.pexels.com/photos/5619462/pexels-photo-5619462.jpeg?auto=compress&cs=tinysrgb&w=1600",
+              "query": "elegant beauty clinic interior",
+              "credit": "Photo by Nico Becker on Pexels",
+              "creditUrl": "https://www.pexels.com/@nicobecker"
+            },
+            "bullets": [
+              {
+                "text": "Personalised treatment for every skin type"
+              },
+              {
+                "text": "Calm, professional clinic environment"
+              },
+              {
+                "text": "Transparent pricing, no hidden fees"
+              }
+            ],
+            "eyebrow": "About Us",
+            "heading": "A studio built around your skin"
+          },
+          "styles": {
+            "background": "surface"
+          }
+        },
+        {
+          "id": "9e26ae1c-a26a-48e6-87bd-84810355e317",
+          "type": "steps",
+          "variant": "numbered",
+          "props": {
+            "intro": "",
+            "items": [
+              {
+                "title": "Choose your treatment",
+                "description": "Browse our services and select the treatment that suits your skincare goals."
+              },
+              {
+                "title": "Get in touch",
+                "description": "Call us, send an email or fill out our contact form to request your appointment."
+              },
+              {
+                "title": "Visit the studio",
+                "description": "Come to 5 Allen Avenue, Ikeja on your chosen date and let us take care of you."
+              }
+            ],
+            "eyebrow": "How It Works",
+            "heading": "Booking your treatment is simple"
+          },
+          "styles": {}
+        },
+        {
+          "id": "0c592941-f7a3-4bf2-b252-90f88773e890",
+          "type": "faq",
+          "variant": "accordion",
+          "props": {
+            "items": [
+              {
+                "answer": "We are at 5 Allen Avenue, Ikeja, Lagos.",
+                "question": "Where is GlowSkin Studio located?"
+              },
+              {
+                "answer": "We are open Monday to Saturday, 9am to 7pm.",
+                "question": "When are you open?"
+              },
+              {
+                "answer": "You can book by emailing bookings@glowskinstudio.ng, calling +234 812 345 6789, or filling in the contact form on our website.",
+                "question": "How do I book an appointment?"
+              },
+              {
+                "answer": "Treatment duration varies. Please contact us when booking and we will advise on timing for your chosen service.",
+                "question": "How long does each treatment take?"
+              },
+              {
+                "answer": "We recommend arriving with a clean face where possible. Our team will guide you on any specific preparation when you book.",
+                "question": "Do I need to prepare anything before my appointment?"
+              }
+            ],
+            "eyebrow": "FAQ",
+            "heading": "Common questions"
+          },
+          "styles": {
+            "background": "surface"
+          }
+        },
+        {
+          "id": "c1b71552-1557-463b-83dd-5e8bc1ed1045",
+          "type": "contact",
+          "variant": "split",
+          "props": {
+            "email": "bookings@glowskinstudio.ng",
+            "hours": "Monday – Saturday, 9am – 7pm",
+            "intro": "Ready to get started? Reach out to us and we will confirm your booking. We look forward to welcoming you to GlowSkin Studio.",
+            "phone": "+234 812 345 6789",
+            "address": "5 Allen Avenue, Ikeja, Lagos",
+            "eyebrow": "Book Now",
+            "heading": "Reserve your appointment",
+            "formAction": "",
+            "formEnabled": true,
+            "submitLabel": "Request Appointment"
+          },
+          "styles": {}
+        }
+      ]
+    },
+    {
+      "id": "a18a6359-34ca-4021-b10a-11065800efcb",
+      "name": "Services",
+      "slug": "/services",
+      "seo": {
+        "title": "Our Services – GlowSkin Studio Ikeja",
+        "description": "Explore our skincare menu: classic facials, acne treatment, chemical peels and lash extensions. Professional results in Ikeja, Lagos."
+      },
+      "sections": [
+        {
+          "id": "caa47baa-0d2f-434b-8b1c-862cae6b34a1",
+          "type": "features",
+          "variant": "list",
+          "props": {
+            "intro": "Every treatment at GlowSkin Studio is performed with professional-grade products and a focus on your skin's individual needs.",
+            "items": [
+              {
+                "icon": "star",
+                "title": "Classic Facial — ₦25,000",
+                "description": "A thorough facial experience that cleanses, exfoliates and hydrates your skin. Suitable for all skin types and a great starting point for any skincare routine."
+              },
+              {
+                "icon": "star",
+                "title": "Acne Treatment — ₦35,000",
+                "description": "A targeted treatment addressing active breakouts and underlying causes. Helps reduce inflammation and supports clearer skin over successive sessions."
+              },
+              {
+                "icon": "star",
+                "title": "Chemical Peel — ₦45,000",
+                "description": "A professional-grade exfoliation treatment that resurfaces the skin, improves uneven tone and leaves a noticeably smoother, more radiant complexion."
+              },
+              {
+                "icon": "star",
+                "title": "Lash Extensions — ₦20,000",
+                "description": "Individually applied lash extensions crafted to complement your eye shape and natural lashes. Long-lasting, natural-looking results."
+              }
+            ],
+            "eyebrow": "Our Treatments",
+            "heading": "Skincare and beauty services"
+          },
+          "styles": {}
+        },
+        {
+          "id": "3edf4e82-b8db-4a8c-ba35-45294f35ad83",
+          "type": "cta",
+          "variant": "banner",
+          "props": {
+            "body": "Contact us to reserve your appointment at GlowSkin Studio, Ikeja. We are open Monday to Saturday, 9am to 7pm.",
+            "heading": "Ready to book your treatment?",
+            "primaryCta": {
+              "href": "/contact",
+              "label": "Book an Appointment"
+            },
+            "secondaryCta": {
+              "href": "",
+              "label": ""
+            }
+          },
+          "styles": {
+            "background": "primary"
+          }
+        }
+      ]
+    },
+    {
+      "id": "38d32d55-88a4-483e-89a2-3a2abb104435",
+      "name": "Contact",
+      "slug": "/contact",
+      "seo": {
+        "title": "Book an Appointment – GlowSkin Studio",
+        "description": "Contact GlowSkin Studio to book your appointment. Call +234 812 345 6789 or email bookings@glowskinstudio.ng. Located in Ikeja, Lagos."
+      },
+      "sections": [
+        {
+          "id": "2846b1b1-3eb1-48d0-a87b-276da62a1be3",
+          "type": "contact",
+          "variant": "split",
+          "props": {
+            "email": "bookings@glowskinstudio.ng",
+            "hours": "Monday – Saturday, 9am – 7pm",
+            "intro": "Call, email or fill in the form below and we will confirm your booking. Our team is happy to help with any questions about our treatments.",
+            "phone": "+234 812 345 6789",
+            "address": "5 Allen Avenue, Ikeja, Lagos",
+            "eyebrow": "Contact Us",
+            "heading": "Book your appointment",
+            "formAction": "",
+            "formEnabled": true,
+            "submitLabel": "Request Appointment"
+          },
+          "styles": {}
+        }
+      ]
+    }
+  ]
+}
